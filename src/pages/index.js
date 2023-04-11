@@ -7,7 +7,8 @@ import HelloMessage from '@/comps/intro';
 
 const Home = () => {
   return (
-  <div className="container mx-auto">
+  
+  <div className="container">
  
   <title>Portfolio</title>
   <link rel='icon' href='/favicon.ico' />
