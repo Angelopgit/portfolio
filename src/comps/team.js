@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-const TeamCard = ({ image, name, title, email, phone }) => {
+const TeamCard = ({ image, name, title, email, phone, project }) => {
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden">
       <img className="h-56 w-full object-cover" src={image} alt={name} />
@@ -10,7 +10,7 @@ const TeamCard = ({ image, name, title, email, phone }) => {
         <p className="text-red-500 text-base mb-2">{title}</p>
         <p className="text-red-500 text-base mb-2">{email}</p>
         <p className="text-red-500 text-base">{phone}</p>
-        <a href="https://github.com/your-username">Link to my GitHub</a>
+        <p className="text-red-500 text-base">{project}</p>
       </div>
     </div>
   );
