@@ -26,7 +26,7 @@ const Home = () => {
 
 const TeamPage = () => {
   return (
-    <div id="card1" className="team grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 hover:animate-pulse">
+    <div id="card1" className="h-200 w-200 hover:animate-pulse">
       <TeamCard 
         image="https://files.facepunch.com/maxlebled/1b1211b1/citizen_header.jpg"
         name="C# Game Project"

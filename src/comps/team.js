@@ -3,7 +3,7 @@ import React from 'react';
 
 const TeamCard = ({ image, name, title, email, phone, project }) => {
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden">
+    <div className="bg-white rounded-lg shadow-md overflow-hidden w-16 md:w-32 lg:w-48">
       <img className="h-56 w-full object-cover" src={image} alt={name} />
       <div className="p-4">
         <h2 className="text-2xl font-bold mb-2">{name}</h2>

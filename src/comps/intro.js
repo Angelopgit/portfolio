@@ -5,13 +5,16 @@ import { motion } from "framer-motion";
 
 const HelloMessage = () => {
     return(
-      <motion.div
-      className="container shadow-lg overflow-auto before:blur-sm rounded-md"
-      animate={{ y: [0,10, 0], transition: { duration: 1.5, repeat:Infinity } }}
+      <div id= "main" class='container'> 
+      <motion.div 
+      className="container shadow-lg overflow-auto before:blur-sm rounded-md w-16 md:w-32 lg:w-64"
+      animate={{ y: [0,10, 0], transition: { duration: 1.5, repeat:Infinity , translateX: "-50%",
+      translateY: "-50%",} }}
+      whileHover={{ scale: 0.99999 }}
       transition={{ duration: 2, ease: "easeInOut" }}
     >
-<div class="container shadow-lg overflow-auto before:blur-sm rounded-md">
-    <div className="intro hover:animate-pulse cursor:point">
+<div id="typehead" class="container shadow-lg overflow-auto before:blur-sm rounded-md w-16 md:w-32 lg:w-48">
+    <div id="type" className="intro hover:animate-pulse cursor:point">
       <h1><Typewriter options={{
         autoStart: true,
         loop: true,
@@ -24,6 +27,7 @@ const HelloMessage = () => {
     </div>
     </div>
     </motion.div>
+    </div>
     );
 };
 
