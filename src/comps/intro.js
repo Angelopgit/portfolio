@@ -7,7 +7,7 @@ const HelloMessage = () => {
     return(
       <div id= "main" class='container'> 
       <motion.div 
-      className="container shadow-lg overflow-auto before:blur-sm rounded-md w-16 md:w-32 lg:w-64"
+      className="container shadow-lg overflow-auto before:blur-sm rounded-md w-10 md:w-10 lg:w-10"
       animate={{ y: [0,10, 0], transition: { duration: 1.5, repeat:Infinity , translateX: "-50%",
       translateY: "-50%",} }}
       whileHover={{ scale: 0.99999 }}

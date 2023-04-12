@@ -15,7 +15,7 @@ const Home = () => {
  
   <HelloMessage/>
   <section>
-    <TeamPage/>
+    
   </section>
     </div>
  
