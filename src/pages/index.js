@@ -2,23 +2,23 @@
 import React from 'react';
 import TeamCard from '@/comps/team';
 import HelloMessage from '@/comps/intro';
+import { Container } from 'postcss';
 
 
 
 const Home = () => {
   return (
   
-  <div className="container">
- 
+  <div class="container2">
+ <head> 
   <title>Portfolio</title>
   <link rel='icon' href='/favicon.ico' />
- 
+  </head>
+  <div id="mainintro" className="h-screen w-full bg-gradient-to-r from-gray-950 to-gray-800 overflow:hidden">
   <HelloMessage/>
-  <section>
-    
-  </section>
+
     </div>
- 
+ </div>
   );
 };
 
