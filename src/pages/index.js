@@ -8,13 +8,8 @@ import { Container } from 'postcss';
 
 const Home = () => {
   return (
-  
-  <div class="container2">
- <head> 
-  <title>Portfolio</title>
-  <link rel='icon' href='/favicon.ico' />
-  </head>
-  <div id="mainintro" className="h-screen w-full bg-gradient-to-r from-gray-950 to-gray-800 overflow:hidden">
+  <div class="container3">
+  <div id="mainintro" className="h-screen w-full bg-gradient-to-r from-gray-950 to-gray-800 overflow:hidden ">
   <HelloMessage/>
 
     </div>
