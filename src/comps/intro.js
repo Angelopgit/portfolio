@@ -15,13 +15,15 @@ const HelloMessage = () => {
     >
 <div id="typehead" class="container mx-auto">
     <div id="type" className="intro hover:animate-pulse cursor:point">
-      <h1><Typewriter options={{
+      <h1>Angelo's Portfolio Site
+        <Typewriter options={{
         autoStart: true,
         loop: true,
         delay: 25,
-        strings:["Hello! ", "My name is Cub.",
+        strings:[
         "I'm learning Software Development.",
-      "Welcome to my Portfolio."],
+      "Welcome to my Portfolio.",
+    "You'll see JavaScript, React, Java, C# and more."],
       }}
         /></h1>
     </div>
